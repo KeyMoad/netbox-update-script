@@ -32,7 +32,7 @@ or
 ```
 
 ### Dependencies
-Before running the script, ensure that you have reviewed the [NetBox upgrade documentation](https://github.com/netbox-community/netbox/blob/develop/docs/installation/upgrading.md#2-update-dependencies-to-required-versions).
+Before running the script, ensure that you have reviewed the [NetBox upgrade documentation](https://github.com/netbox-community/netbox/blob/develop/docs/installation/upgrading.md).
 
 ### Important Notes
 * _Dependencies_: Make sure to review and update dependencies as per NetBox's requirements.
