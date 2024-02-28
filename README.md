@@ -1,6 +1,6 @@
 # NetBox Update Script
 ## Overview
-This Bash script is designed to streamline the process of updating NetBox installations. It provides options for updating to the latest version or specifying a particular version to upgrade/downgrade to. The script also includes features such as creating backups, handling dependencies, and restarting NetBox services.
+This Bash script is designed to streamline the process of updating NetBox installations. It provides options for updating to the latest version or specifying a particular version to upgrade/downgrade to.
 
 ## Usage
 ### Basic Usage
@@ -35,9 +35,8 @@ or
 Before running the script, ensure that you have reviewed the [NetBox upgrade documentation](https://github.com/netbox-community/netbox/blob/develop/docs/installation/upgrading.md#2-update-dependencies-to-required-versions).
 
 ### Important Notes
-* _Backup_: The script creates a backup of the NetBox database before initiating any updates.
 * _Dependencies_: Make sure to review and update dependencies as per NetBox's requirements.
-* _Housekeeping_ Script: After updating, verify the existence of the NetBox housekeeping script.
+* _Housekeeping Script_: After updating, verify the existence of the NetBox housekeeping script.
 
 ### License
 This script is released under the MIT License.

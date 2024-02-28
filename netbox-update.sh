@@ -47,27 +47,12 @@ function help_usage {
     printf "'--version'      '-v' \n %s \n\n" "      If passed, It will Upgrade/Downgrade the NetBox to specific version."
 }
 
-function make_backup {
-    log_info "Start to create backup from database"
-    # Use creating backup script to make database backup
-    bash /home/netbox/backup/script.sh
-
-    # exit if anythings goes wrong
-    if [[ $? -gt 0 ]]; then
-        log_error "Somthings went wrong while trying to create backup"
-        exit 1
-    fi
-}
-
 function update_to {
     log_warn "Before starting make sure that you read Dependencies again"
     log_debug "https://github.com/netbox-community/netbox/blob/develop/docs/installation/upgrading.md#2-update-dependencies-to-required-versions"
     sleep 5
 
     PASSED_VERSION=$1
-
-    # Create backup before everything
-    make_backup
 
     # Enable exit if anythings gows wrong
     set -e
