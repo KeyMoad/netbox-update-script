@@ -40,5 +40,3 @@ Before running the script, ensure that you have reviewed the [NetBox upgrade doc
 
 ### License
 This script is released under the MIT License.
-
-__Make sure to replace <version> with the actual variable names or values from your script, and include a license file if applicable. Adjust the content based on your specific requirements and any additional information you feel is necessary.__
